@@ -1,0 +1,1 @@
+ALTER TABLE `rental_agreements` ADD `booking_id` int NOT NULL;
