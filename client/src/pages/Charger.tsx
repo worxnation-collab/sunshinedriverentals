@@ -3,6 +3,7 @@
  * Contact-for-quote model (no public pricing).
  */
 import Navbar from "@/components/Navbar";
+import { TURO_LINKS } from "@/lib/turo";
 import Footer from "@/components/Footer";
 import PageMeta from "@/components/PageMeta";
 import FaqAccordion from "@/components/FaqAccordion";
@@ -31,6 +32,7 @@ const FAQ_ITEMS = [
   { question: "What are the rental requirements?", answer: "Drivers must be 25 or older with a valid U.S. driver's license and complete a quick verification before pickup. A refundable security deposit may apply depending on the trip." },
 ];
 
+const TURO_URL = TURO_LINKS.charger;
 export default function Charger() {
   return (
     <div className="min-h-screen" style={{ background: "var(--sd-cream)" }}>
@@ -76,7 +78,7 @@ export default function Charger() {
             Four doors. No apologies.
           </h1>
           <div className="flex flex-wrap gap-3 mb-4">
-            <a href="/#contact" className="btn-book">Request a Quote</a>
+            <a href={TURO_URL} target="_blank" rel="noopener noreferrer" className="btn-book">Book on Turo</a>
           </div>
           <p style={{ color: "rgba(255,255,255,0.75)", fontSize: "0.95rem", maxWidth: "520px", lineHeight: 1.65, marginBottom: "1.5rem" }}>
             485 horsepower from a 6.4L 392 HEMI, wrapped in F8 Green with the Daytona stripe. The full muscle-car presence — with a back seat for the crew.
@@ -156,7 +158,7 @@ export default function Charger() {
         <div className="container">
           <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "clamp(1.5rem, 3vw, 2rem)", fontWeight: 800, color: "white", marginBottom: "1.5rem" }}>Ready to roll?</h2>
           <div className="flex flex-wrap justify-center gap-3">
-            <a href="/#contact" className="btn-book">Request a Quote</a>
+            <a href={TURO_URL} target="_blank" rel="noopener noreferrer" className="btn-book">Book on Turo</a>
             <a href={QUOTE_TEXT} className="btn-secondary" style={{ color: "white", borderColor: "rgba(255,255,255,0.4)" }}>Text us your dates</a>
             <a href="tel:+19043147650" className="btn-secondary" style={{ color: "white", borderColor: "rgba(255,255,255,0.4)" }}>Call (904) 314-7650</a>
           </div>

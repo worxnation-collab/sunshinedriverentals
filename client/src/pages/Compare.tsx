@@ -72,7 +72,7 @@ const VEHICLES = [
     type: "Hybrid Van",
     bestFor: "Large families, road trips, fuel efficiency, cargo",
     mileage: "200 mi/day",
-    href: "/sienna-woodland-rental/",
+    href: "/#fleet",
     bookingUrl: "https://checkout.wheelbasepro.com/r/reserve/526689?owner_id=5011008&rental_category=auto",
     halfDay: false,
     color: "#3a7bd5",
@@ -208,11 +208,11 @@ export default function Compare() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {[
-              { scenario: "Family Disney trip (5+ people)", pick: "Toyota Sienna Woodland", reason: "8 seats, AWD for rain, stroller space, sliding doors", href: "/sienna-woodland-rental/" },
+              { scenario: "Family Disney trip (5+ people)", pick: "Toyota Sienna Woodland", reason: "8 seats, AWD for rain, stroller space, sliding doors", href: "/#fleet" },
               { scenario: "Bachelor/bachelorette weekend", pick: "Durango SRT Hellcat", reason: "710 hp, seats 7, turns heads everywhere, F8 Green", href: "/orlando-hellcat-rental/" },
               { scenario: "Romantic date night", pick: "Challenger R/T", reason: "V8 soundtrack, 2-door coupe, F8 Green", href: "/challenger-rt-rental/" },
               { scenario: "Beach day with the top off", pick: "Ford Bronco", reason: "Removable top, 4x4 for sand, Rapid Red, adventure vibes", href: "/orlando-bronco-rental/" },
-              { scenario: "Large family + grandparents", pick: "Toyota Sienna Woodland", reason: "8 seats, 36 MPG hybrid, sliding doors, most cargo space", href: "/sienna-woodland-rental/" },
+              { scenario: "Large family + grandparents", pick: "Toyota Sienna Woodland", reason: "8 seats, 36 MPG hybrid, sliding doors, most cargo space", href: "/#fleet" },
               { scenario: "Content creator shoot", pick: "F8 Green Duo", reason: "Both muscle cars together, maximum visual impact", href: "/f8-duo-wedding/" },
             ].map((item) => (
               <a key={item.scenario} href={item.href} className="p-5 rounded-xl transition-all duration-200 hover:shadow-lg" style={{ background: "white", border: "1px solid var(--sd-border)", textDecoration: "none" }}>

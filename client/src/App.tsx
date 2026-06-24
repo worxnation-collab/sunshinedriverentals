@@ -9,9 +9,6 @@ import Hellcat from "./pages/Hellcat";
 import Challenger from "./pages/Challenger";
 import Bronco from "./pages/Bronco";
 import Charger from "./pages/Charger";
-import SiennaWoodland from "./pages/SiennaWoodland";
-import Weddings from "./pages/Weddings";
-import Shoots from "./pages/Shoots";
 import F8Duo from "./pages/F8Duo";
 import McoDelivery from "./pages/McoDelivery";
 import Terms from "./pages/Terms";
@@ -39,12 +36,6 @@ function Router() {
       <Route path="/orlando-bronco-rental/" component={Bronco} />
       <Route path="/orlando-charger-rental" component={Charger} />
       <Route path="/orlando-charger-rental/" component={Charger} />
-      <Route path="/sienna-woodland-rental" component={SiennaWoodland} />
-      <Route path="/sienna-woodland-rental/" component={SiennaWoodland} />
-      <Route path="/weddings" component={Weddings} />
-      <Route path="/weddings/" component={Weddings} />
-      <Route path="/shoots" component={Shoots} />
-      <Route path="/shoots/" component={Shoots} />
       <Route path="/f8-duo-wedding" component={F8Duo} />
       <Route path="/f8-duo-wedding/" component={F8Duo} />
       <Route path="/mco-car-delivery" component={McoDelivery} />

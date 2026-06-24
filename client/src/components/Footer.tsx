@@ -33,7 +33,6 @@ export default function Footer() {
                 { label: "Challenger R/T", href: "/challenger-rt-rental/" },
                 { label: "Ford Bronco", href: "/orlando-bronco-rental/" },
                 { label: "Charger Scat Pack", href: "/orlando-charger-rental/" },
-                { label: "Toyota Sienna", href: "/sienna-woodland-rental/" },
               ].map((item) => (
                 <li key={item.label}>
                   <a href={item.href} className="text-sm hover:text-white transition-colors" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}>
@@ -49,8 +48,6 @@ export default function Footer() {
             <h4 className="text-xs font-bold uppercase tracking-widest mb-4" style={{ color: "rgba(255,255,255,0.4)" }}>Events</h4>
             <ul className="space-y-2">
               {[
-                { label: "Group Trips", href: "/weddings/" },
-                { label: "Photo & Video", href: "/shoots/" },
                 { label: "F8 Green Duo", href: "/f8-duo-wedding/" },
                 { label: "Custom Events", href: "/#contact" },
               ].map((item) => (

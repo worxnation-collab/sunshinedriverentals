@@ -79,8 +79,8 @@ export default function Navbar() {
             {[
               { label: "Home", href: "/" },
               { label: "Fleet", href: isHome ? "#fleet" : "/#fleet" },
-              { label: "Group Trips", href: "/weddings/" },
-              { label: "Shoots", href: "/shoots/" },
+              { label: "Hellcat", href: "/orlando-hellcat-rental/" },
+              { label: "Charger", href: "/orlando-charger-rental/" },
             ].map((item) => (
               <a
                 key={item.label}
@@ -122,8 +122,8 @@ export default function Navbar() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Fleet", href: isHome ? "#fleet" : "/#fleet" },
-                { label: "Group Trips", href: "/weddings/" },
-                { label: "Shoots", href: "/shoots/" },
+                { label: "Hellcat", href: "/orlando-hellcat-rental/" },
+              { label: "Charger", href: "/orlando-charger-rental/" },
               ].map((item) => (
                 <a
                   key={item.label}

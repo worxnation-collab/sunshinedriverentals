@@ -3,6 +3,7 @@
  * Wheelbase booking URL: https://checkout.wheelbasepro.com/r/reserve/526694?owner_id=5011008&rental_category=auto
  */
 import Navbar from "@/components/Navbar";
+import { TURO_LINKS } from "@/lib/turo";
 import Footer from "@/components/Footer";
 import PageMeta from "@/components/PageMeta";
 import FaqAccordion from "@/components/FaqAccordion";
@@ -13,6 +14,7 @@ import { ChevronRight } from "lucide-react";
 import { FLEET_IMAGES } from "@/lib/images";
 
 const BOOKING_URL = "https://checkout.wheelbasepro.com/r/reserve/526694?owner_id=5011008&rental_category=auto";
+const TURO_URL = TURO_LINKS.challenger;
 
 const SPECS = [
   { label: "375 hp", sub: "Hemi V8" },
@@ -78,7 +80,7 @@ export default function Challenger() {
           </h1>
           <div className="flex flex-wrap gap-3 mb-4">
             <a href="/#contact" className="btn-book">
-              Request a Quote
+              Book on Turo
             </a>
           </div>
           <p style={{ color: "rgba(255,255,255,0.75)", fontSize: "0.95rem", maxWidth: "520px", lineHeight: 1.65, marginBottom: "1.5rem" }}>
@@ -143,7 +145,7 @@ export default function Challenger() {
         </div>
       </section>
 
-      <WheelbaseWidget bookingUrl={BOOKING_URL} vehicleName="Dodge Challenger R/T" price="$89" id="book" />
+      <WheelbaseWidget bookingUrl={BOOKING_URL} vehicleName="Dodge Challenger R/T" price="$89" id="book" turoUrl={TURO_URL} />
 
       {/* ── FAQ ── */}
       <section style={{ background: "white", padding: "5rem 0" }}>
@@ -160,7 +162,7 @@ export default function Challenger() {
         <div className="container">
           <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "clamp(1.5rem, 3vw, 2rem)", fontWeight: 800, color: "white", marginBottom: "1.5rem" }}>Ready to roll?</h2>
           <div className="flex flex-wrap justify-center gap-3">
-            <a href="/#contact" className="btn-book">Request a Quote</a>
+            <a href="/#contact" className="btn-book">Book on Turo</a>
             <a href="sms:+19043147650" className="btn-secondary" style={{ color: "white", borderColor: "rgba(255,255,255,0.4)" }}>Questions? Text us</a>
             <a href="sms:+19043147650?body=Hey%20-%20I%27m%20interested%20in%20the%20F8%20Duo%20(Hellcat%20%2B%20Challenger).%20Dates%3A%20" className="btn-secondary" style={{ color: "white", borderColor: "rgba(255,255,255,0.4)" }}>Text us about the Duo</a>
             <a href="tel:+19043147650" className="btn-secondary" style={{ color: "white", borderColor: "rgba(255,255,255,0.4)" }}>Call (904) 314-7650</a>
@@ -169,7 +171,7 @@ export default function Challenger() {
       </section>
 
       <Footer />
-      <MobileBookBar vehicleName="Dodge Challenger R/T" bookingUrl={BOOKING_URL} price="$89" />
+      <MobileBookBar vehicleName="Dodge Challenger R/T" bookingUrl={BOOKING_URL} price="$89" turoUrl={TURO_URL} />
     </div>
   );
 }

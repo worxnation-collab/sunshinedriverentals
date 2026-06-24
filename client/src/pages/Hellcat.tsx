@@ -5,6 +5,7 @@
  * CX improvements: sticky mobile book bar, trust bar in hero, clear booking CTA
  */
 import Navbar from "@/components/Navbar";
+import { TURO_LINKS } from "@/lib/turo";
 import Footer from "@/components/Footer";
 import PageMeta from "@/components/PageMeta";
 import FaqAccordion from "@/components/FaqAccordion";
@@ -15,6 +16,7 @@ import { ChevronRight } from "lucide-react";
 import { FLEET_IMAGES } from "@/lib/images";
 
 const BOOKING_URL = "https://checkout.wheelbasepro.com/r/reserve/526504?owner_id=5011008&rental_category=auto";
+const TURO_URL = TURO_LINKS.durango;
 
 const SPECS = [
   { label: "710 hp", sub: "Supercharged 6.2L V8" },
@@ -93,13 +95,13 @@ export default function Hellcat() {
 
           <div className="flex flex-wrap gap-3 mb-6">
             <a
-              href={BOOKING_URL}
+              href={TURO_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-book"
               style={{ fontSize: "1rem" }}
             >
-              Request a Quote
+              Book on Turo
             </a>
           </div>
 
@@ -222,6 +224,7 @@ export default function Hellcat() {
         vehicleName="Dodge Durango SRT Hellcat"
         price="$199"
         id="book"
+        turoUrl={TURO_URL}
       />
 
       {/* ── FAQ ── */}
@@ -244,9 +247,7 @@ export default function Hellcat() {
             Ready to roll?
           </h2>
           <div className="flex flex-wrap justify-center gap-3">
-            <a href="/#contact" className="btn-book">
-              Request a Quote
-            </a>
+            <a href={TURO_URL} target="_blank" rel="noopener noreferrer" className="btn-book">Book on Turo</a>
             <a href="sms:+19043147650" className="btn-secondary" style={{ color: "white", borderColor: "rgba(255,255,255,0.4)" }}>
               Questions? Text us
             </a>
@@ -258,7 +259,7 @@ export default function Hellcat() {
       </section>
 
       <Footer />
-      <MobileBookBar vehicleName="Dodge Durango SRT Hellcat" bookingUrl={BOOKING_URL} price="$199" />
+      <MobileBookBar vehicleName="Dodge Durango SRT Hellcat" bookingUrl={BOOKING_URL} price="$199" turoUrl={TURO_URL} />
     </div>
   );
 }

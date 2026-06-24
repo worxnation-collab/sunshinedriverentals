@@ -45,8 +45,8 @@ export default function F8Duo() {
               A 710-hp Hellcat and a 375-hp Challenger R/T — both in F8 Green. Rent them together for weddings, content shoots, or just because you can.
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
-              <a href="/weddings/" className="btn-book">Weddings →</a>
-              <a href="/shoots/" className="btn-secondary" style={{ color: "white", borderColor: "rgba(255,255,255,0.4)" }}>Photo &amp; Video</a>
+              <a href="/#contact" className="btn-book">Weddings →</a>
+              <a href="/#contact" className="btn-secondary" style={{ color: "white", borderColor: "rgba(255,255,255,0.4)" }}>Photo &amp; Video</a>
               <a href="sms:+19043147650?body=Hey%20-%20I%27m%20interested%20in%20the%20F8%20Duo.%20Dates%3A%20" className="btn-secondary" style={{ color: "white", borderColor: "rgba(255,255,255,0.4)" }}>Text us about the Duo</a>
             </div>
             <TrustBar dark />
@@ -102,8 +102,8 @@ export default function F8Duo() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
-              { title: "Weddings & Events", desc: "Two matching green muscle cars as your getaway vehicles. His & hers, bride & groom — the exit everyone remembers.", href: "/weddings/", cta: "See wedding packages" },
-              { title: "Photo & Video Shoots", desc: "Content creators, music videos, brand campaigns. Two cars, one look, unlimited angles.", href: "/shoots/", cta: "Book a shoot" },
+              { title: "Weddings & Events", desc: "Two matching green muscle cars as your getaway vehicles. His & hers, bride & groom — the exit everyone remembers.", href: "/#contact", cta: "See wedding packages" },
+              { title: "Photo & Video Shoots", desc: "Content creators, music videos, brand campaigns. Two cars, one look, unlimited angles.", href: "/#contact", cta: "Book a shoot" },
               { title: "Duo Day Rental", desc: "Road trips, group outings, or just because. Two keys, two V8s, one unforgettable day.", href: "sms:+19043147650?body=Hey%20-%20I%27m%20interested%20in%20the%20F8%20Duo%20for%20a%20day.%20Dates%3A%20", cta: "Text us about pricing" },
             ].map((item) => (
               <div key={item.title} className="p-6 rounded-xl" style={{ background: "white", border: "1px solid var(--sd-border)" }}>
@@ -120,8 +120,8 @@ export default function F8Duo() {
         <div className="container">
           <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "clamp(1.5rem, 3vw, 2rem)", fontWeight: 800, color: "white", marginBottom: "1.5rem" }}>Ready to roll in green?</h2>
           <div className="flex flex-wrap justify-center gap-3">
-            <a href="/weddings/" className="btn-book">Wedding Packages</a>
-            <a href="/shoots/" className="btn-secondary" style={{ color: "white", borderColor: "rgba(255,255,255,0.4)" }}>Shoot Packages</a>
+            <a href="/#contact" className="btn-book">Wedding Packages</a>
+            <a href="/#contact" className="btn-secondary" style={{ color: "white", borderColor: "rgba(255,255,255,0.4)" }}>Shoot Packages</a>
             <a href="sms:+19043147650?body=Hey%20-%20I%27m%20interested%20in%20the%20F8%20Duo.%20Dates%3A%20" className="btn-secondary" style={{ color: "white", borderColor: "rgba(255,255,255,0.4)" }}>Text us about the Duo</a>
           </div>
         </div>

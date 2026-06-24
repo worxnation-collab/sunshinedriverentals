@@ -15,7 +15,6 @@ const FLEET = [
   { name: "Durango SRT Hellcat", price: "$199", specs: "710 hp · 7 seats · AWD", img: FLEET_IMAGES.hellcatHero, href: "/orlando-hellcat-rental/", bookingUrl: "https://checkout.wheelbasepro.com/r/reserve/526504?owner_id=5011008&rental_category=auto" },
   { name: "Dodge Challenger R/T", price: "$89", specs: "375 hp · V8 · F8 Green", img: FLEET_IMAGES.challengerHero, href: "/challenger-rt-rental/", bookingUrl: "https://checkout.wheelbasepro.com/r/reserve/526694?owner_id=5011008&rental_category=auto" },
   { name: "2026 Ford Bronco", price: "$99", specs: "4x4 · Removable Top", img: FLEET_IMAGES.broncoHero, href: "/orlando-bronco-rental/", bookingUrl: "https://checkout.wheelbasepro.com/r/reserve/526695?owner_id=5011008&rental_category=auto" },
-  { name: "Toyota Sienna Woodland", price: "$79", specs: "8 seats · Hybrid · AWD", img: FLEET_IMAGES.siennaHero, href: "/sienna-woodland-rental/", bookingUrl: "https://checkout.wheelbasepro.com/r/reserve/526689?owner_id=5011008&rental_category=auto" },
 ];
 
 const FAQ_ITEMS = [
