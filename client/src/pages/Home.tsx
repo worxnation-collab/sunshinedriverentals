@@ -1,6 +1,6 @@
 /*
- * Home â SunshineDrive Rentals
- * Design: Refined Warmth â preserving existing visual identity
+ * Home — SunshineDrive Rentals
+ * Design: Refined Warmth — preserving existing visual identity
  * CX improvements:
  *   - Trust bar elevated to hero section
  *   - Sticky mobile booking bar
@@ -53,7 +53,7 @@ const FLEET = [
     category: "Muscle",
     name: "Dodge Charger Scat Pack",
     year: "2022",
-    subtitle: "F8 Green Â· 392 HEMI",
+    subtitle: "F8 Green · 392 HEMI",
     specs: ["485 hp", "5 seats", "6.4L V8"],
     price: "",
     badge: "LAUNCH PRICING",
@@ -83,22 +83,22 @@ const REVIEWS = [
   {
     text: "Perfect! Car was incredible, very clean and like new, easy to pick up and drop off. The host is very kind and communicative. I recommend!",
     author: "Ocean",
-    context: "Dodge Challenger 2018 â¢ June 4, 2026",
+    context: "Dodge Challenger 2018 • June 4, 2026",
   },
       {
     text: "The car was perfect and everything I dreamed of and my host was phenomenal I will definitely be renting again",
     author: "Sony",
-    context: "Dodge Durango 2021 â¢ May 24, 2026",
+    context: "Dodge Durango 2021 • May 24, 2026",
   },
     {
     text: "Great Host Easy pick and drop off will be renting again !",
     author: "James",
-    context: "Dodge Durango 2021 â¢ May 11, 2026",
+    context: "Dodge Durango 2021 • May 11, 2026",
   },
   {
-    text: "Daysi was exceptional!!! Very responsive and reliable. Communication was the best I have ever experience all tâs crossed and iâs dotted! I will be renting again!",
+    text: "Daysi was exceptional!!! Very responsive and reliable. Communication was the best I have ever experience all t’s crossed and i’s dotted! I will be renting again!",
     author: "Katrina",
-    context: "Dodge Durango 2021 â¢ May 4, 2026",
+    context: "Dodge Durango 2021 • May 4, 2026",
   },
 ];
 
@@ -109,11 +109,11 @@ const FAQ_ITEMS = [
   },
   {
     question: "Is there a security deposit?",
-    answer: "A security deposit hold is placed at booking and released after the vehicle is returned in the same condition. The amount varies by vehicle â it's shown clearly during checkout.",
+    answer: "A security deposit hold is placed at booking and released after the vehicle is returned in the same condition. The amount varies by vehicle — it's shown clearly during checkout.",
   },
   {
     question: "What's the mileage policy?",
-    answer: "Standard packages include 150â200 miles per day depending on the vehicle. Unlimited mileage is available for an additional fee. Any overage is billed at the per-mile rate after your trip.",
+    answer: "Standard packages include 150–200 miles per day depending on the vehicle. Unlimited mileage is available for an additional fee. Any overage is billed at the per-mile rate after your trip.",
   },
   {
     question: "Where do you deliver?",
@@ -129,7 +129,7 @@ const FAQ_ITEMS = [
   },
   {
     question: "What if my flight is delayed or I arrive late?",
-    answer: "Text us when you land â we'll adjust the delivery time. We're flexible and understand travel delays. Just keep us in the loop and we'll make it work.",
+    answer: "Text us when you land — we'll adjust the delivery time. We're flexible and understand travel delays. Just keep us in the loop and we'll make it work.",
   },
   {
     question: "Do I need my own car insurance?",
@@ -156,7 +156,7 @@ export default function Home() {
     }
   };
 
-  // ââ Contact / quote request ââ
+  // ── Contact / quote request ──
   const [contactForm, setContactForm] = useState({
     name: "", email: "", phone: "", vehicle: "", pickup_date: "", return_date: "", pickup_location: "", message: "",
   });
@@ -176,13 +176,13 @@ export default function Home() {
   return (
     <div className="min-h-screen" style={{ background: "var(--sd-cream)" }}>
       <PageMeta
-        title="SunshineDrive Rentals â Orlando Car Rentals Near MCO Airport"
-        description="Premium car rentals delivered to MCO Airport, your hotel, or vacation rental. Performance SUVs, muscle cars, and family-ready vehicles â no airport counters, no surprise fees."
+        title="SunshineDrive Rentals — Orlando Car Rentals Near MCO Airport"
+        description="Premium car rentals delivered to MCO Airport, your hotel, or vacation rental. Performance SUVs, muscle cars, and family-ready vehicles — no airport counters, no surprise fees."
         url="/"
       />
       <Navbar />
 
-      {/* ââ HERO ââ */}
+      {/* ── HERO ── */}
       <section
         className="relative min-h-screen flex items-center"
         style={{
@@ -246,7 +246,7 @@ export default function Home() {
                 marginBottom: "2.5rem",
               }}
             >
-              Premium car rentals delivered to MCO Airport, your hotel, or vacation rental. Performance SUVs, muscle cars, and family-ready vehicles â no airport counters, no surprise fees.
+              Premium car rentals delivered to MCO Airport, your hotel, or vacation rental. Performance SUVs, muscle cars, and family-ready vehicles — no airport counters, no surprise fees.
             </p>
 
             {/* CTAs */}
@@ -276,7 +276,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ââ NEW TO FLEET: BRONCO SPOTLIGHT ââ */}
+      {/* ── NEW TO FLEET: BRONCO SPOTLIGHT ── */}
       <section
         className="relative py-16 md:py-20"
         style={{
@@ -321,7 +321,7 @@ export default function Home() {
                 Go anywhere.
               </h2>
               <p style={{ color: "rgba(255,255,255,0.75)", fontSize: "0.95rem", lineHeight: 1.7, marginBottom: "2rem" }}>
-                Rapid Red. Badlands 4x4. Removable top. The adventure side of SunshineDrive â red against our green fleet.
+                Rapid Red. Badlands 4x4. Removable top. The adventure side of SunshineDrive — red against our green fleet.
               </p>
               <div className="flex flex-wrap gap-3">
                 <a href="/orlando-bronco-rental/" className="btn-secondary" style={{ color: "white", borderColor: "rgba(255,255,255,0.4)" }}>
@@ -352,7 +352,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ââ FLEET ââ */}
+      {/* ── FLEET ── */}
       <section id="fleet" style={{ background: "var(--sd-cream)", padding: "5rem 0" }}>
         <div className="container">
           <div className="mb-10">
@@ -369,7 +369,7 @@ export default function Home() {
               Find your <span style={{ color: "var(--sd-green)" }}>perfect ride.</span>
             </h2>
             <p style={{ color: "var(--sd-muted)", fontSize: "0.95rem", maxWidth: "480px", lineHeight: 1.6 }}>
-              From 710-hp Hellcats to rugged Broncos â every car hand-detailed and delivered to your door. Launch pricing available now.
+              From 710-hp Hellcats to rugged Broncos — every car hand-detailed and delivered to your door. Launch pricing available now.
             </p>
           </div>
 
@@ -408,7 +408,7 @@ export default function Home() {
                       <h3 style={{ fontFamily: "'Playfair Display', serif", fontWeight: 700, fontSize: "1.1rem", color: "var(--sd-charcoal)" }}>
                         {car.name}
                       </h3>
-                      <p style={{ fontSize: "0.8rem", color: "var(--sd-muted)" }}>{car.year} Â· {car.subtitle}</p>
+                      <p style={{ fontSize: "0.8rem", color: "var(--sd-muted)" }}>{car.year} · {car.subtitle}</p>
                     </div>
                     <div className="text-right">
                       <span style={{ fontSize: "0.8rem", fontWeight: 700, color: "var(--sd-green-dark)" }}>Contact for quote</span>
@@ -442,7 +442,7 @@ export default function Home() {
                       className="text-center text-sm font-semibold py-2 transition-colors hover:opacity-70"
                       style={{ color: "var(--sd-green-dark)", textDecoration: "none" }}
                     >
-                      View Details â
+                      View Details →
                     </a>
                     {car.halfDay && (
                       <a
@@ -460,13 +460,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* ââ REVIEWS ââ */}
+      {/* ── REVIEWS ── */}
       <section style={{ background: "white", padding: "5rem 0" }}>
         <div className="container">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
             <div>
               <div className="flex items-center gap-2 mb-2">
-                <div className="star-rating">âââââ</div>
+                <div className="star-rating">★★★★★</div>
                 <span className="text-sm font-bold" style={{ color: "var(--sd-charcoal)" }}>5.0 on Google</span>
               </div>
               <div className="section-label mb-2">What Our Guests Say</div>
@@ -493,7 +493,7 @@ export default function Home() {
           </div>
 
           <p style={{ color: "var(--sd-muted)", fontSize: "0.9rem", marginBottom: "2.5rem", fontStyle: "italic" }}>
-            Every rental is a relationship â not just a transaction.
+            Every rental is a relationship — not just a transaction.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -503,13 +503,13 @@ export default function Home() {
                 className="p-6 rounded-xl"
                 style={{ background: "var(--sd-cream)", border: "1px solid var(--sd-border)" }}
               >
-                <div className="star-rating mb-3">âââââ</div>
+                <div className="star-rating mb-3">★★★★★</div>
                 <p style={{ fontSize: "0.9rem", color: "var(--sd-charcoal)", lineHeight: 1.7, marginBottom: "1rem", fontStyle: "italic" }}>
                   "{review.text}"
                 </p>
                 <div>
                   <p style={{ fontWeight: 700, fontSize: "0.85rem", color: "var(--sd-charcoal)" }}>{review.author}</p>
-                  <p style={{ fontSize: "0.78rem", color: "var(--sd-muted)" }}>â {review.context}</p>
+                  <p style={{ fontSize: "0.78rem", color: "var(--sd-muted)" }}>— {review.context}</p>
                 </div>
               </div>
             ))}
@@ -517,7 +517,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ââ ABOUT MATTHEW ââ */}
+      {/* ── ABOUT MATTHEW ── */}
       <Reviews />
 
       <section style={{ background: "var(--sd-charcoal)", padding: "5rem 0" }}>
@@ -537,10 +537,10 @@ export default function Home() {
                 Locally owned. Personally delivered.
               </h2>
               <p style={{ color: "rgba(255,255,255,0.75)", fontSize: "0.95rem", lineHeight: 1.75, marginBottom: "2rem" }}>
-                SunshineDrive is a family-run rental business based in Kissimmee, Florida. Every car in our fleet is personally maintained, hand-detailed, and delivered by the owner. No corporate counters, no bait-and-switch â just premium vehicles and real communication.
+                SunshineDrive is a family-run rental business based in Kissimmee, Florida. Every car in our fleet is personally maintained, hand-detailed, and delivered by the owner. No corporate counters, no bait-and-switch — just premium vehicles and real communication.
               </p>
               <p style={{ color: "rgba(255,255,255,0.5)", fontSize: "0.85rem", marginBottom: "1.5rem" }}>
-                Founded by Matthew Â· Serving Orlando, Kissimmee &amp; Central Florida
+                Founded by Matthew · Serving Orlando, Kissimmee &amp; Central Florida
               </p>
               <div className="flex flex-col gap-2">
                 {["Owner-operated", "Insured via Wheelbase", "Driver verified"].map((item) => (
@@ -563,7 +563,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ââ F8 DUO ââ */}
+      {/* ── F8 DUO ── */}
       <section style={{ background: "var(--sd-cream)", padding: "5rem 0" }}>
         <div className="container">
           <div className="section-label mb-3">The Duo</div>
@@ -579,7 +579,7 @@ export default function Home() {
             F8 Green Duo. Matching muscle.
           </h2>
           <p style={{ color: "var(--sd-muted)", fontSize: "0.95rem", maxWidth: "520px", lineHeight: 1.65, marginBottom: "3rem" }}>
-            A Charger Scat Pack and a Challenger R/T â both in F8 Green. Rent them together for the ultimate Orlando experience.
+            A Charger Scat Pack and a Challenger R/T — both in F8 Green. Rent them together for the ultimate Orlando experience.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -627,7 +627,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ââ FAQ ââ */}
+      {/* ── FAQ ── */}
       <section style={{ background: "white", padding: "5rem 0" }}>
         <div className="container">
           <div className="max-w-2xl mx-auto">
@@ -648,7 +648,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ââ EMAIL LIST ââ */}
+      {/* ── EMAIL LIST ── */}
       <section style={{ background: "var(--sd-cream)", padding: "4rem 0" }}>
         <div className="container">
           <div className="max-w-lg mx-auto text-center">
@@ -695,7 +695,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ââ BOOKING / CONTACT ââ */}
+      {/* ── BOOKING / CONTACT ── */}
       <section id="contact" style={{ background: "var(--sd-charcoal)", padding: "5rem 0" }}>
         <div className="container">
           <div className="max-w-2xl mx-auto text-center">
@@ -712,12 +712,12 @@ export default function Home() {
               Ready to ride?
             </h2>
             <p style={{ color: "rgba(255,255,255,0.7)", fontSize: "0.95rem", marginBottom: "2.5rem", lineHeight: 1.65 }}>
-              Tell us your dates and which car caught your eye. We'll text you a quote â usually within the hour. Delivery's included.
+              Tell us your dates and which car caught your eye. We'll text you a quote — usually within the hour. Delivery's included.
             </p>
 
             {contactSubmitted ? (
               <div className="p-6 rounded-xl mb-6 text-center" style={{ background: "rgba(45,90,61,0.25)", border: "1px solid var(--sd-green)" }}>
-                <p style={{ color: "white", fontWeight: 700, fontSize: "1.05rem", marginBottom: "0.25rem" }}>Got it â thanks!</p>
+                <p style={{ color: "white", fontWeight: 700, fontSize: "1.05rem", marginBottom: "0.25rem" }}>Got it — thanks!</p>
                 <p style={{ color: "rgba(255,255,255,0.7)", fontSize: "0.9rem" }}>We'll be in touch shortly. Need us now? Text (904) 314-7650.</p>
               </div>
             ) : (
@@ -783,7 +783,7 @@ export default function Home() {
       >
         <div className="flex flex-col">
           <span className="text-xs font-semibold" style={{ color: "rgba(255,255,255,0.6)" }}>SunshineDrive Rentals</span>
-          <span className="text-sm font-bold" style={{ color: "white" }}>Delivered to your door Â· Get a quote</span>
+          <span className="text-sm font-bold" style={{ color: "white" }}>Delivered to your door · Get a quote</span>
         </div>
         <a href="#fleet" className="btn-book" style={{ padding: "0.625rem 1.25rem", fontSize: "0.875rem" }}>
           Browse Fleet
