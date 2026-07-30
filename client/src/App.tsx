@@ -9,6 +9,9 @@ import Hellcat from "./pages/Hellcat";
 import Challenger from "./pages/Challenger";
 import Bronco from "./pages/Bronco";
 import Charger from "./pages/Charger";
+import Legacy from "./pages/Legacy";
+import ChallengerB5 from "./pages/ChallengerB5";
+import HRV from "./pages/HRV";
 import F8Duo from "./pages/F8Duo";
 import McoDelivery from "./pages/McoDelivery";
 import Terms from "./pages/Terms";
@@ -32,10 +35,16 @@ function Router() {
       <Route path="/orlando-hellcat-rental/" component={Hellcat} />
       <Route path="/challenger-rt-rental" component={Challenger} />
       <Route path="/challenger-rt-rental/" component={Challenger} />
+      <Route path="/challenger-rt-b5-rental" component={ChallengerB5} />
+      <Route path="/challenger-rt-b5-rental/" component={ChallengerB5} />
+      <Route path="/orlando-hrv-rental" component={HRV} />
+      <Route path="/orlando-hrv-rental/" component={HRV} />
       <Route path="/orlando-bronco-rental" component={Bronco} />
       <Route path="/orlando-bronco-rental/" component={Bronco} />
       <Route path="/orlando-charger-rental" component={Charger} />
       <Route path="/orlando-charger-rental/" component={Charger} />
+      <Route path="/orlando-subaru-legacy-rental" component={Legacy} />
+      <Route path="/orlando-subaru-legacy-rental/" component={Legacy} />
       <Route path="/f8-duo-wedding" component={F8Duo} />
       <Route path="/f8-duo-wedding/" component={F8Duo} />
       <Route path="/mco-car-delivery" component={McoDelivery} />

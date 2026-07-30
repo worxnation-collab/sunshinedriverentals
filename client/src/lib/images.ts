@@ -23,6 +23,23 @@ export const FLEET_IMAGES = {
   // Ford Bronco
   broncoHero: "/fleet/bronco-hero.jpg",
 
+  // Honda HR-V EX-L
+  hrvHero: "/fleet/hrv-hero.jpg",
+  hrvFront: "/fleet/hrv-front.jpg",
+  hrvInterior: "/fleet/hrv-interior.jpg",
+  hrvCargo: "/fleet/hrv-cargo.jpg",
+
+  // Challenger R/T — B5 Blue (second Challenger)
+  challengerB5Hero: "/fleet/challenger-b5-hero.jpg",
+  challengerB5Side: "/fleet/challenger-b5-side.jpg",
+  challengerB5Interior: "/fleet/challenger-b5-interior.jpg",
+
+  // Subaru Legacy Touring XT
+  legacyHero: "/fleet/legacy-hero.jpg",
+  legacyFront: "/fleet/legacy-front.jpg",
+  legacyInterior: "/fleet/legacy-interior.jpg",
+  legacyRear: "/fleet/legacy-rear.jpg",
+
 
   // Toyota Sienna Woodland
   siennaFront: "/fleet/sienna-woodland-front.jpg",

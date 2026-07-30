@@ -30,9 +30,12 @@ export default function Footer() {
               {[
                 { label: "All Vehicles", href: "/#fleet" },
                 { label: "Hellcat SUV", href: "/orlando-hellcat-rental/" },
-                { label: "Challenger R/T", href: "/challenger-rt-rental/" },
+                { label: "Challenger R/T (F8 Green)", href: "/challenger-rt-rental/" },
+                { label: "Challenger R/T (B5 Blue)", href: "/challenger-rt-b5-rental/" },
                 { label: "Ford Bronco", href: "/orlando-bronco-rental/" },
                 { label: "Charger Scat Pack", href: "/orlando-charger-rental/" },
+                { label: "Legacy Touring XT", href: "/orlando-subaru-legacy-rental/" },
+                { label: "Honda HR-V", href: "/orlando-hrv-rental/" },
               ].map((item) => (
                 <li key={item.label}>
                   <a href={item.href} className="text-sm hover:text-white transition-colors" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}>

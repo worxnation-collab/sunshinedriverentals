@@ -13,7 +13,9 @@ import { MapPin, CheckCircle, ArrowRight, Clock, Car, Plane } from "lucide-react
 
 const FLEET = [
   { name: "Durango SRT Hellcat", price: "$199", specs: "710 hp · 7 seats · AWD", img: FLEET_IMAGES.hellcatHero, href: "/orlando-hellcat-rental/", bookingUrl: "https://checkout.wheelbasepro.com/r/reserve/526504?owner_id=5011008&rental_category=auto" },
-  { name: "Dodge Challenger R/T", price: "$89", specs: "375 hp · V8 · F8 Green", img: FLEET_IMAGES.challengerHero, href: "/challenger-rt-rental/", bookingUrl: "https://checkout.wheelbasepro.com/r/reserve/526694?owner_id=5011008&rental_category=auto" },
+  { name: "Challenger R/T · F8 Green", price: "$89", specs: "372 hp · 5.7L HEMI · F8 Green", img: FLEET_IMAGES.challengerHero, href: "/challenger-rt-rental/", bookingUrl: "https://checkout.wheelbasepro.com/r/reserve/526694?owner_id=5011008&rental_category=auto" },
+  { name: "Challenger R/T · B5 Blue", price: "$89", specs: "372 hp · 5.7L HEMI · B5 Blue", img: FLEET_IMAGES.challengerB5Hero, href: "/challenger-rt-b5-rental/", bookingUrl: "/challenger-rt-b5-rental/" },
+  { name: "Honda HR-V EX-L", price: "$59", specs: "29 MPG · 5 seats · White", img: FLEET_IMAGES.hrvHero, href: "/orlando-hrv-rental/", bookingUrl: "/orlando-hrv-rental/" },
   { name: "2026 Ford Bronco", price: "$99", specs: "4x4 · Removable Top", img: FLEET_IMAGES.broncoHero, href: "/orlando-bronco-rental/", bookingUrl: "https://checkout.wheelbasepro.com/r/reserve/526695?owner_id=5011008&rental_category=auto" },
 ];
 

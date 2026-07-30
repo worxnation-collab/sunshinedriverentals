@@ -81,6 +81,7 @@ export default function Navbar() {
               { label: "Fleet", href: isHome ? "#fleet" : "/#fleet" },
               { label: "Hellcat", href: "/orlando-hellcat-rental/" },
               { label: "Charger", href: "/orlando-charger-rental/" },
+              { label: "Legacy", href: "/orlando-subaru-legacy-rental/" },
             ].map((item) => (
               <a
                 key={item.label}
@@ -124,6 +125,7 @@ export default function Navbar() {
                 { label: "Fleet", href: isHome ? "#fleet" : "/#fleet" },
                 { label: "Hellcat", href: "/orlando-hellcat-rental/" },
               { label: "Charger", href: "/orlando-charger-rental/" },
+                { label: "Legacy", href: "/orlando-subaru-legacy-rental/" },
               ].map((item) => (
                 <a
                   key={item.label}
